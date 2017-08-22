@@ -1,0 +1,25 @@
+group 'au.com.spock'
+version '1.0-SNAPSHOT'
+
+
+apply plugin: 'java'
+apply plugin: 'groovy'
+apply plugin: 'idea'
+apply plugin: 'application'
+apply plugin: 'jacoco'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.apache.commons:commons-lang3:3.5'
+    compile 'org.springframework:spring-context:4.3.9.RELEASE'
+    compile 'org.codehaus.groovy:groovy-all:2.4.7'
+
+    testCompile 'org.springframework:spring-test:4.3.8.RELEASE'
+    testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
+    testCompile 'org.spockframework:spock-spring:1.1-groovy-2.4-rc-4'
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomDataProvider.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomDataProvider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomDataProvider_main.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomDataProvider_main.iml" group="CustomDataProvider" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomDataProvider_test.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomDataProvider_test.iml" group="CustomDataProvider" />
+    </modules>
+  </component>
+</project>
